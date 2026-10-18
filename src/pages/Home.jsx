@@ -13,10 +13,14 @@ function Home() {
       <Header />
       <main className="pt-32 px-6">
         
-        <div className="mx-auto my-16 flex justify-center">
-          <Hero />
-          <Form />
-          
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10">
+            <div className="min-w-0 lg:col-span-7">
+                <Hero />
+            </div>
+
+            <div className="min-w-0 lg:col-span-5">
+                <Form />
+            </div>
         </div>
         <HowItWorks />
         <TypesOfDebt />

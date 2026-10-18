@@ -1,13 +1,13 @@
 
 function Hero() {
   return (
-    <section className="flex flex-col items-start text-left lg:col-span-7 max-w-3xl mx-auto lg:mx-0 font-dm-sans">
-      <h1 className="text-[2.15rem] sm:text-4xl md:text-5xl lg:text-6xl font-medium text-slate-900 leading-[1.15] tracking-tight">
+    <section className="w-full min-w-0 flex flex-col items-start text-left lg:col-span-7 max-w-3xl mx-auto lg:mx-0 font-dm-sans">
+      <h1 className="text-[1.8rem] sm:text-4xl md:text-5xl lg:text-6xl font-medium text-slate-900 leading-[1.15] tracking-tight">
         Canadians Are Reducing Their Debt by{" "}
         <span className="text-blue-600">60–80%</span>
       </h1>
 
-      <p className="mt-6 text-[1.125rem] text-gray-600 leading-relaxed">
+      <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600 leading-relaxed">
         A free, confidential assessment can help you understand where you
         stand and what may apply based on your situation.
       </p>
@@ -47,7 +47,7 @@ function Hero() {
               behavior: "smooth",
             })
           }
-          className="px-6 py-3 rounded-full font-semibold transition-transform duration-200 hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg sm:hidden flex items-center justify-center gap-2 text-xl"
+          className="px-5 py-3 rounded-full font-semibold transition-transform duration-200 hover:scale-105 active:scale-95 bg-blue-600 text-white hover:bg-blue-700 shadow-lg sm:hidden flex items-center justify-center gap-2 text-base w-full max-w-sm mx-auto"
         >
           Start Free Assessment <span>››</span>
         </button>
