@@ -18,7 +18,7 @@ function Home() {
                 <Hero />
             </div>
 
-            <div className="min-w-0 lg:col-span-5">
+            <div className="w-full min-w-0 flex justify-center lg:col-span-5">
                 <Form />
             </div>
         </div>
